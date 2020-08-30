@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: random-quote-service
+  labels:
+    name: random-quote-service
+    app: demo-random-quote-service
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
+  selector:
+     name: random-quote-service
+     app: demo-random-quote-service
