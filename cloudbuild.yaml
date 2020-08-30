@@ -30,8 +30,8 @@ substitutions:
     
     #Repository Specific configuration. DevOps can change this settings
     _IMAGE: random-quote
-    _DEPLOYMENTNAME: random-quote-service
-    _CONTAINERNAME: random-quote-service    
+    _DEPLOYMENTNAME: random-quote-deployment
+    _CONTAINERNAME: random-quote    
     _REPO_NAME: RandomQuotes-Java
     
     # Developers ONLY change
