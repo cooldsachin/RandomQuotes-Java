@@ -35,7 +35,7 @@ spec:
 
     spec:
       containers:
-      - name: random-quote-deployment
+      - name: random-quote
         image: gcr.io/parabolic-rope-278721/random-quote
         imagePullPolicy: Always
         ports:
